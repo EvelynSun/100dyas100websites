@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-align:center;
+}
+
+#main_wraper{
+	width:840px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+
+#nav{
+	float:left;
+	width:22%;
+}
+
+#nav_inner{
+	border-right: #EB17BB solid 3px;
+	padding:1em .8em;
+}
+
+#content{
+	
+	float:left;
+	width:78%;
+	top:0px;
+}
+
+#header{
+	background:#F3860C;
+	text-align:center;
+	
+}
+#header_inner, #nav_inner, #content_inner, #promo_inner {
+overfl ow:hidden;
+}
+
+#footer{
+	clear:both;
+	
+	text-align:center;
+	background:#DBAD0F;
+	
+}
+
+#content_inner{
+	padding:0 1em 1em 1.5em;
+}
+#header_inner {
+padding:1em 2em;
+}
