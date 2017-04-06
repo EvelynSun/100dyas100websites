@@ -1,0 +1,191 @@
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+}
+
+#outer_circle{
+    
+    width:550px;
+    height:550px;
+    border-radius:50%;
+    background-color:darkgray;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:100px;
+    position: relative;
+}
+
+#inner_square {
+    
+    position: absolute;
+    
+   
+    
+    width:550px;
+    height:550px;
+    
+ top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+    border-radius: 50%;
+}
+
+#left_upper {
+    width:250px;
+    height: 250px;
+    border-radius:250px 0 0 0;
+    background-color:darkgreen;
+    position: absolute;
+    
+    left:20px;
+    top:20px;
+}
+
+#right_upper{
+    
+    width:250px;
+    height:250px;
+    border-radius:0 250px 0 0;
+    background-color:yellow;
+    position:absolute;
+    top:20px;
+    right:20px;
+}
+
+#left_bottom {
+    width:250px;
+    height:250px;
+    border-radius: 0 0 0 250px;
+    background-color:deepskyblue;
+    bottom:20px;
+    left:20px;
+    position: absolute;
+}
+
+#right_bottom {
+    width:250px;
+    height:250px;
+    border-radius: 0 0 250px 0;
+    background-color:darkmagenta;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+}
+
+
+#inner_circle {
+    
+    width:320px;
+    height:320px;
+    background-color:white;
+    border:5px solid grey;
+    
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    border-radius:50%
+}
+
+
+
+#show_board{
+    float:left;
+    margin-bottom:35px;
+}
+#title {
+  font-size:48px;
+  margin:35px;
+}
+
+#show_count {
+    width:100px;
+    height:60px;
+   
+    margin-left:25px;
+    float:left;
+    margin-right:35px;
+    
+}
+
+
+#count_number {
+    width:80px;
+    height:30px;
+    margin-left:auto;
+    margin-right:auto;
+    border:3px blue solid;
+    margin-bottom: 0
+}
+
+p{
+    font-size:16px;
+    margin-top:6px;
+}
+
+#show_text {
+    margin-top:1px
+}
+
+#start {
+    float:left;
+   
+    width:50px;
+    height:60px;
+    margin-right: 35px;
+}
+
+#strict {
+    float:left;
+    width:50px;
+    height:60px;
+   
+}
+
+#btn_start{
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: darkred;
+    border:3px solid grey;
+
+}
+
+#btn_strict {
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    margin-left:auto;
+    margin-right:auto;
+    background-color: yellow;
+    border:3px solid grey;
+}
+
+#btn_onoff{
+    clear:both;
+    width:100px;
+    height:30px;
+    border-radius:8px;
+    background-color:darkorange;
+    border:3px solid grey;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    cursor:pointer;
+   
+}
+
+#count_number p {
+    font-size:20px;
+    font-weight: bold;
+    color:red;
+}
+
+.mousedown {
+    cursor: pointer;
+}
